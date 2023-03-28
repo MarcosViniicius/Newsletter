@@ -43,7 +43,7 @@ mensagem = open("noticias.txt","r",encoding="utf-8" )
 msg = EmailMessage()
 msg['Subject'] = 'Notícia do dia'
 msg['From'] = 'noticiadodiapython'
-msg['To'] = 'marcosvinicius.lucena27@gmail.com', 'marcosvinicius.lucena28@gmail.com', 'marcosvinicius.lucena@hotmail.com'
+msg['To'] = 'email@email.com', 'email@email.com', 'email@email.com'
 msg.set_content(mensagem.read()) 
 mensagem.close() # Fechar arquivo.
 os.remove("noticias.txt") # Apagador o arquivo notícias
